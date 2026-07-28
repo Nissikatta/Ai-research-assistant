@@ -1,0 +1,72 @@
+[
+  {
+    "chunk_id": "a9bc65c3-735e-4831-98f2-738ef5ad7c59_c0",
+    "document_id": "a9bc65c3-735e-4831-98f2-738ef5ad7c59",
+    "document_name": "Transformer_Architectures_in_NLP.pdf",
+    "page_number": 1,
+    "content": "Transformer Architectures in Natural Language Processing\n\nAbstract:\nTransformer language models have revolutionized Natural Language Processing [NLP] through self-attention mechanisms, BERT, GPT models, sequence-to-sequence translation, tokenization, text classification, and named entity recognition [NER].\nThis paper explores multi-head attention mechanisms, positional encoding, and retrieval-augmented generation [RAG] architectures for enterprise knowledge bases.\n\n1. Introduction\nModern NLP ap"
+  },
+  {
+    "chunk_id": "6a5e71fd-6b61-4423-b9fa-c68fcc73775f_c0",
+    "document_id": "6a5e71fd-6b61-4423-b9fa-c68fcc73775f",
+    "document_name": "Convolutional_Vision_and_YOLO.pdf",
+    "page_number": 1,
+    "content": "Convolutional Neural Networks and Real-Time Object Detection\n\nAbstract:\nComputer vision systems utilize Convolutional Neural Networks [CNNs], ResNet architectures, object detection using YOLO and Faster R-CNN, image segmentation, optical flow, and visual feature extraction in video streams.\n\n1. Object Detection Benchmarks\nVision transformers [ViT] and semantic segmentation models allow precise pixel-level bounding box object tracking. Depth estimation and visual simultaneous localization and ma"
+  },
+  {
+    "chunk_id": "fed3106c-5a8b-4c5b-88eb-0d6cf1992424_c0",
+    "document_id": "fed3106c-5a8b-4c5b-88eb-0d6cf1992424",
+    "document_name": "Cyber_Security_and_Zero_Trust.pdf",
+    "page_number": 1,
+    "content": "Enterprise Cyber Security and Zero-Trust Network Architectures\n\nAbstract:\nNetwork security, intrusion detection systems [IDS], cryptography, AES encryption, RSA public key infrastructure, zero-trust architecture, and vulnerability assessments form the core of enterprise cybersecurity defense.\n\n1. Threat Mitigation\nMalware detection, endpoint detection and response [EDR], ransomware mitigation, and penetration testing ensure safe software development lifecycles.\n\n2. Authentication Protocols\nIden"
+  },
+  {
+    "chunk_id": "40c40a28-809f-4190-9adb-4791c09c5be6_c0",
+    "document_id": "40c40a28-809f-4190-9adb-4791c09c5be6",
+    "document_name": "ML_R2.pdf",
+    "page_number": 1,
+    "content": "NISSI KATTA\nnissikatta27@gmail.com — +91 6301206447 — linkedin — github\nOBJECTIVE\nMotivated Electrical and Electronics Engineering student with hands-on experience in Python, Machine Learning, Deep\nLearning, Retrieval-Augmented Generation (RAG), Large Language Models (LLMs), and Full-Stack Development. Pas-\nsionate about building AI-powered applications and seeking a Software Engineer or AI/ML role to contribute to innovative\nsoftware solutions while continuously enhancing technical expertise.\nINTERNSHIP\nSummer Intern – TAKEOFF EDU GROUP COMPANYMay – June 2025"
+  },
+  {
+    "chunk_id": "40c40a28-809f-4190-9adb-4791c09c5be6_c1",
+    "document_id": "40c40a28-809f-4190-9adb-4791c09c5be6",
+    "document_name": "ML_R2.pdf",
+    "page_number": 1,
+    "content": "INTERNSHIP\nSummer Intern – TAKEOFF EDU GROUP COMPANYMay – June 2025\n•Developed and maintained full-stack web applications using Python (Django), React.js, HTML and CSS.\n•Designed and optimized MySQL databases, enhancing data integrity and performance.\n•Integrated REST APIs to ensure smooth communication between front-end and back-end systems.\n•Collaborated in an Agile environment, focusing on testing, debugging and delivering quality solutions.\nEDUCATION\nBachelor of Technology – Electrical and Electronics Engineering2022 – 2026"
+  },
+  {
+    "chunk_id": "40c40a28-809f-4190-9adb-4791c09c5be6_c2",
+    "document_id": "40c40a28-809f-4190-9adb-4791c09c5be6",
+    "document_name": "ML_R2.pdf",
+    "page_number": 1,
+    "content": "EDUCATION\nBachelor of Technology – Electrical and Electronics Engineering2022 – 2026\nRajiv Gandhi University of Knowledge Technologies, Srikakulam CGPA: 7.2 / 10\nPre-University Course 2020 – 2022\nRajiv Gandhi University of Knowledge Technologies, Srikakulam CGPA: 7.0 / 10\nSSC – Secondary Education2019 – 2020\nZP High School, Rudrakota CGPA: 9.7 / 10\nSKILLS\n•Programming Languages:Python, JavaScript, SQL\n•Web Technologies:HTML, CSS, Bootstrap, React.js, Node.js\n•Libraries/Frameworks:Django, FastAPI, LangChain, FAISS, Ollama, TensorFlow, Streamlit\n•Databases:MySQL, SQLite\n•Tools:Git, GitHub"
+  },
+  {
+    "chunk_id": "40c40a28-809f-4190-9adb-4791c09c5be6_c3",
+    "document_id": "40c40a28-809f-4190-9adb-4791c09c5be6",
+    "document_name": "ML_R2.pdf",
+    "page_number": 1,
+    "content": "•Databases:MySQL, SQLite\n•Tools:Git, GitHub\n•Core Skills:Machine Learning, Deep Learning, Retrieval-Augmented Generation (RAG), Large Language Models\n(LLMs), Prompt Engineering, REST APIs, Data Structures and Algorithms (DSA)\n•Soft Skills:Communication, Problem Solving, Teamwork, Adaptability\nPROJECTS\n1) Slot-Swapper (Python Full Stack – Django, React.js, FastAPI, SQLite)\n•Enabled users to swap busy calendar slots using secure JWT-based authentication.\n•Implemented calendar management with event creation, updates, deletions, and real-time synchronization."
+  },
+  {
+    "chunk_id": "40c40a28-809f-4190-9adb-4791c09c5be6_c4",
+    "document_id": "40c40a28-809f-4190-9adb-4791c09c5be6",
+    "document_name": "ML_R2.pdf",
+    "page_number": 1,
+    "content": "•Built a marketplace to browse available slots and manage swap requests.\n2) Customer Churn Prediction using ANN (TensorFlow/Keras, Streamlit, Python)\n•Built an Artificial Neural Network (ANN) model to predict customer churn using banking customer data.\n•Performed data preprocessing using label encoding, one-hot encoding, and feature scaling.\n•Trained and evaluated the model using TensorFlow/Keras.\n•Developed an interactive Streamlit application for real-time churn prediction.\n1"
+  },
+  {
+    "chunk_id": "40c40a28-809f-4190-9adb-4791c09c5be6_c5",
+    "document_id": "40c40a28-809f-4190-9adb-4791c09c5be6",
+    "document_name": "ML_R2.pdf",
+    "page_number": 2,
+    "content": "3) AI Powered Sports Quiz Generator (RAG, FastAPI, LangChain)\n•Built a Retrieval-Augmented Generation (RAG) based application for generating sports quiz questions.\n•Used LangChain, FastAPI and vector search to retrieve relevant information before generating answers.\n•Improved response quality using contextual document retrieval and LLM-based generation.\n4) LLM-as-Judge Evaluation Pipeline (Python, Pydantic, JSON)\n•Developed an automated evaluation pipeline to compare and score Large Language Model (LLM) responses."
+  },
+  {
+    "chunk_id": "40c40a28-809f-4190-9adb-4791c09c5be6_c6",
+    "document_id": "40c40a28-809f-4190-9adb-4791c09c5be6",
+    "document_name": "ML_R2.pdf",
+    "page_number": 2,
+    "content": "•Implemented structured output parsing using Pydantic with robust JSON validation and repair.\n•Evaluated responses using predefined quality metrics such as correctness, relevance and consistency.\n•Generated structured evaluation reports for reliable comparison of multiple LLM outputs.\nCERTIFICATIONS\n•Python Full Stack Development – Takeoff Edu Group\n•Artificial Intelligence – OneStop.AI\n•Machine Learning with Python – NxtWave\n•Introduction to Databases – NxtWave\n•Generative AI and Prompt Engineering – NxtWave\n2"
+  }
+]
