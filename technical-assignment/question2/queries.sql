@@ -9,13 +9,9 @@
 -- Query A: Determine how many types of Acacia plants are present in the taxonomy table.
 -- Returns the count with a clearly named column.
 -- -----------------------------------------------------------------------------
-SELECT 
-    COUNT(*) AS acacia_types_count
-FROM 
-    taxonomy
-WHERE 
-    species LIKE '%Acacia%' 
-    OR tax_string LIKE '%Acacia%';
+SELECT COUNT(DISTINCT species) AS acacia_types_count
+FROM taxonomy
+WHERE species LIKE 'Acacia%';
 
 
 -- -----------------------------------------------------------------------------
@@ -24,19 +20,14 @@ WHERE
 -- with the maximum sequence length.
 -- Returns the relevant wheat species/type and its DNA sequence length.
 -- -----------------------------------------------------------------------------
-SELECT 
+SELECT
     t.species AS wheat_type,
-    r.length AS max_dna_sequence_length
-FROM 
-    rfamseq r
-JOIN 
-    taxonomy t ON r.ncbi_id = t.ncbi_id
-WHERE 
-    t.species LIKE '%Triticum%' 
-    OR t.tax_string LIKE '%Triticum%'
-    OR t.species LIKE '%wheat%'
-ORDER BY 
-    r.length DESC
+    r.length AS dna_sequence_length
+FROM rfamseq AS r
+JOIN taxonomy AS t
+    ON r.ncbi_id = t.ncbi_id
+WHERE t.species LIKE 'Triticum%'
+ORDER BY r.length DESC
 LIMIT 1;
 
 
@@ -49,21 +40,18 @@ LIMIT 1;
 -- - 15 results per page.
 -- - Returns Page 9 of results (results 121 to 135 -> LIMIT 15 OFFSET 120).
 -- -----------------------------------------------------------------------------
-SELECT 
+SELECT
     f.rfam_acc AS family_accession,
     f.rfam_id AS family_name,
-    MAX(r.length) AS max_dna_sequence_length
-FROM 
-    family f
-JOIN 
-    full_region fr ON f.rfam_acc = fr.rfam_acc
-JOIN 
-    rfamseq r ON fr.rfamseq_acc = r.rfamseq_acc
-GROUP BY 
-    f.rfam_acc, 
+    MAX(r.length) AS max_sequence_length
+FROM family AS f
+JOIN full_region AS fr
+    ON f.rfam_acc = fr.rfam_acc
+JOIN rfamseq AS r
+    ON fr.rfamseq_acc = r.rfamseq_acc
+GROUP BY
+    f.rfam_acc,
     f.rfam_id
-HAVING 
-    MAX(r.length) > 1000000
-ORDER BY 
-    max_dna_sequence_length DESC
+HAVING MAX(r.length) > 1000000
+ORDER BY max_sequence_length DESC
 LIMIT 15 OFFSET 120;
